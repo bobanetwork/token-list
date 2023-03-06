@@ -15,10 +15,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Extract branch name
+      - name: Get branch name
         id: branch-name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        uses: tj-actions/branch-names@v6
 
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -29,4 +28,4 @@ jobs:
         run: yarn
 
       - name: Run LogoURI Validation test
-        run: yarn validate:logo ${{ steps.branch-name.outputs.branch }}
+        run: yarn validate:logo ${{ steps.branch-name.outputs.current_branch }}
