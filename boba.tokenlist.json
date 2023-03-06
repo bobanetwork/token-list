@@ -451,7 +451,7 @@
         "name": "Boba WAGMI v3 Oolong Option",
         "symbol": "WAGMIv3-Oolong",
         "decimals": 18,
-        "logoURI": "https://raw.githubusercontent.com/bobanetwork/tokenlist/main/assets/wagmiv3.png"
+        "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/wagmiv3.png"
       },
       {
         "chainId": 288,
@@ -459,7 +459,7 @@
         "name": "OolongSwap Token",
         "symbol": "OLO",
         "decimals": 18,
-        "logoURI": "https://raw.githubusercontent.com/bobanetwork/tokenlist/main/assets/olo.svg"
+        "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/olo.svg"
       }
     ]
   }

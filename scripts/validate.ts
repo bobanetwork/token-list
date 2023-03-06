@@ -7,7 +7,7 @@ import bobaTokenList from '../boba.tokenlist.json'
 async function validate() {
   const ajv = new Ajv({ allErrors: true, verbose: true })
   addFormats(ajv)
-  const validator = ajv.compile(schema);
+  const validator = ajv.compile(schema)
   const valid = validator(bobaTokenList)
   if (valid) {
     return valid
