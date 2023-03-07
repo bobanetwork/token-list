@@ -1,0 +1,31 @@
+name: validate token logos
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate-logo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get branch name
+        id: branch-name
+        uses: tj-actions/branch-names@v6
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+
+      - name: Install Dependencies 
+        run: yarn
+
+      - name: Run LogoURI Validation test
+        run: yarn validate:logo ${{ steps.branch-name.outputs.current_branch }}
