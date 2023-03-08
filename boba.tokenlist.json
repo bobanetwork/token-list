@@ -66,6 +66,14 @@
       "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/ethereum.svg"
     },
     {
+      "chainId": 2888,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/ethereum.svg"
+    },
+    {
       "chainId": 288,
       "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
       "name": "Wrapped Ether",
