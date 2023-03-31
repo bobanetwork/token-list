@@ -455,7 +455,7 @@
       "name": "Domination Finance Token",
       "symbol": "DOM",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/dom.png"
+      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/dom.svg"
     },
     {
       "chainId": 288,
@@ -463,7 +463,7 @@
       "name": "Domination Finance Token",
       "symbol": "DOM",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/dom.png"
+      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/dom.svg"
     },
     {
       "chainId": 1,
