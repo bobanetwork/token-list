@@ -287,7 +287,7 @@
       "name": "Frax",
       "symbol": "FRAX",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/frax.png"
+      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/frax.svg"
     },
     {
       "chainId": 288,
@@ -295,7 +295,7 @@
       "name": "Frax",
       "symbol": "FRAX",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/frax.png"
+      "logoURI": "https://raw.githubusercontent.com/bobanetwork/token-list/main/assets/frax.svg"
     },
     {
       "chainId": 1,
